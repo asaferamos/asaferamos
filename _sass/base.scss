@@ -1,0 +1,165 @@
+h1{
+	font-weight: 700;
+	color: #ddd;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 0.7;
+  font-size: 36px;
+}
+
+h1 span{
+	font-size: 18px;
+	margin-top: 0;
+	padding-top: 0;
+
+}
+
+h4{
+	font-weight: 400;
+	color: #333;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+h3{
+	font-size: 18px;
+  margin-top: 40px;
+
+  &#desenvolvedor-full-stack{
+    margin-top:0;
+  }
+}
+
+p{
+	text-align: justify;
+	font-weight: 300;
+}
+
+a{
+	font-weight: 400;
+	color: #333;
+}
+
+a:hover{
+	color: #444;
+	text-decoration: none;
+}
+
+a, a:hover, button, button:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 250ms linear, color 250ms linear, border-color 250ms linear;
+    -moz-transition: background-color 250ms linear, color 250ms linear, border-color 250ms linear;
+    -o-transition: background-color 250ms linear, color 250ms linear, border-color 250ms linear;
+    -ms-transition: background-color 250ms linear, color 250ms linear, border-color 250ms linear;
+    transition: background-color 250ms linear, color 250ms linear, border-color 250ms linear
+}
+
+body {
+	font-family: 'Open Sans';
+	background: #5D578C;
+	color: #ddd;
+
+}
+
+.trabalhos .box{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 50px;
+}
+
+.container{
+	padding:50px 0;
+}
+
+.badge{
+
+}
+
+article{
+  padding: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  article{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  ul{
+    list-style: none;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #trabalhos-desenvolvidos + ul{
+    li{
+      display: inherit;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #trabalhos-desenvolvidos + ul{
+    li{
+
+    }
+  }
+}
+
+ul{
+  padding: 0;
+
+  li{
+
+    font-weight: 400;
+  	background-color: #4B7347;
+  	color: #ddd;
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    margin:0 5px;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+  }
+}
+
+#trabalhos-desenvolvidos + ul{
+
+  li{
+    float: inherit;
+    font-weight: 400;
+  	background-color: #333;
+  	color: #fff;
+    min-width: 10px;
+    margin: 10px 5px;
+    padding: 7px 7px;
+    font-size: 17px;
+    line-height: 1;
+    color: #fff;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 5px;
+
+    a{
+      color: #ddd;
+
+      &:hover{
+        color: #4B7347;
+      }
+    }
+  }
+}
+
+hr{
+  margin: 40px 0;
+  height: 1px;
+  background: #4B7947;
+  border: 0;
+}
